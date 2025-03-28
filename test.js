@@ -1,5 +1,5 @@
 async function getData(city1) {
-	const url = `http://api.weatherapi.com/v1/forecast.json?key=<insertapikey>&q=${city1}&days=1&aqi=yes&alerts=yes
+	const url = `http://api.weatherapi.com/v1/forecast.json?key=51d9992dd6f64e38875153519252803&q=${city1}&days=1&aqi=yes&alerts=yes
 `;
 	const options = {
 		method: "GET",
